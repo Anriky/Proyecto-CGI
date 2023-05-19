@@ -105,19 +105,24 @@
         
          </form>
          <footer>
-            <div id="cuadro2">
-                <h3>Contactanos</h3>
-                <div class="azul">
-                    <div><a href="#" class="socialButton twitter">twitter</a></div>
-                    <div><a href="#" class="socialButton facebook">facebook</a></div>
-                </div>
-                <h3>Paleta de colores</h3>
-                <img src="img/Pal.png" width="50%">
-    
-                <nav id="cuatro">
-                    <img src="img/QR.png" width="15%">
-                </nav>
+        <div id="cuadro2">
+            <h3>Creditos</h3>
+            <p>Alumna: Arely Ivonne Trevizo Verduzco  Matricula: 211196</p>
+            <p>Materia: Diseño web HTML5 y CSS3 adaptativo</p>
+            <p>Fecha: 19/05/23</p>
+            
+            <h3>Contactanos</h3>
+            <div class="azul">
+                <div><a href="https://twitter.com/?lang=es" class="socialButton twitter">twitter</a></div>
+                <div><a href="https://es-la.facebook.com/" class="socialButton facebook">facebook</a></div>
             </div>
-        </footer>
+            <h3>Paleta de colores</h3>
+            <img src="img/Pal.png" width="50%">
+
+            <nav id="cuatro">
+                <img src="img/QR.png" width="15%">
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>

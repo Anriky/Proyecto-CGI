@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="estilos_carrusel.css" />
+    <link rel="stylesheet" href="css/estilo3.css">
+    <title>Galeria</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script> //Script Menu
+        posicionarMenu();
+
+        $(window).scroll(function () {
+            posicionarMenu();
+        });
+        function posicionarMenu() {
+            var altura_del_header = $('.header').outerHeight(true);
+            var altura_del_menu = $('.menu').outerHeight(true);
+
+            if ($(window).scrollTop() >= altura_del_header) {
+                $('.menu').addClass('fixed');
+                $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+            } else {
+                $('.menu').removeClass('fixed');
+                $('.wrapper').css('margin-top', '0');
+            }
+        }
+    </script>
+    <div class="header">
+        <h1>Galeria</h1>
+    </div>
+    <div class="menu"><!--Menu-->
+        <a href="https://al211196.000webhostapp.com/Proyectos/Proyecto%20Z/index.html">CGI</a>
+        <a href="https://al211196.000webhostapp.com/Proyectos/Proyecto%20Z/index2.html">Historia</a>
+        <a href="#">Galeria</a>
+        <a href="https://al211196.000webhostapp.com/Proyectos/Proyecto%20Z/index4.php">Mas...</a>
+    </div>
+    </head>
+<body>
+    <img src="img/spi.webp" width="100%">
+    <h2>Galeria</h2>
+    <p>
+    </p>
+    <div id="animacion"></div>
+
+    <div>
+        <nav id="dos">
+            <a href="#"><img src="img/" alt="" ></a>
+            <a href="#"><img src="img/" alt="" ></a>
+        </nav>
+    </div>
+    <footer>
+        <div id="cuadro2">
+            <h3>Contactanos</h3>
+            <div class="azul">
+                <div><a href="#" class="socialButton twitter">twitter</a></div>
+                <div><a href="#" class="socialButton facebook">facebook</a></div>
+            </div>
+            <h3>Paleta de colores</h3>
+            <img src="img/Pal.png" width="50%">
+
+            <nav id="cuatro">
+                <img src="img/QR.png" width="15%">
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

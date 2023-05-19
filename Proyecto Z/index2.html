@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo2.css">
+    <title>Historia</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script> //Script Menu
+        posicionarMenu();
+
+        $(window).scroll(function () {
+            posicionarMenu();
+        });
+        function posicionarMenu() {
+            var altura_del_header = $('.header').outerHeight(true);
+            var altura_del_menu = $('.menu').outerHeight(true);
+
+            if ($(window).scrollTop() >= altura_del_header) {
+                $('.menu').addClass('fixed');
+                $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+            } else {
+                $('.menu').removeClass('fixed');
+                $('.wrapper').css('margin-top', '0');
+            }
+        }
+    </script>
+    <div class="header">
+        <h1>Historia del CGI</h1>
+    </div>
+    <div class="menu"><!--Menu-->
+        <a href="https://al211196.000webhostapp.com/Proyectos/Proyecto%20Z/index.html">CGI</a>
+        <a href="#">Historia</a>
+        <a href="https://al211196.000webhostapp.com/Proyectos/Proyecto%20Z/index3.html">Galeria</a>
+        <a href="https://al211196.000webhostapp.com/Proyectos/Proyecto%20Z/index4.php">Mas...</a>
+    </div>
+    </head>
+<body>
+    <img src="img/ini2.jpeg" width="100%">
+    <h2>Historia del CGI</h2>
+    <p>
+        El nacimiento de la CGI puede datarse a finales de los años 50. Desde entonces, son muchas las películas que han
+        hecho uso de esta tecnología, pero solo algunas pueden considerarse pioneras en u utilización.
+    </p>
+    <br>
+    <br>
+    <h2>CGI primitivo</h2>
+    <p>El primer precedente del CGI en el cine fueron los títulos de crédito de Vértigo (1958). Diseñados por Saul Bass
+        y animados por John Whitney, fueron la primera animación hecha por ordenador en aparecer en una película. Más
+        tarde, Whitney creó una animación abstracta por ordenador a la que llamó Catalog (1961).</p>
+    <br>
+    <div>
+        <nav id="dos">
+            <a href="#"><img src="img/vert2.png" alt="" ></a>
+            <a href="#"><img src="img/vert.jpeg" alt="" ></a>
+        </nav>
+    </div>
+    <br>
+    <p>
+        Computer Ballet (1965) fue la primera animación de una figura humana y The Stick Man (1967), la primera
+        animación por ordenador en tiempo real. Por su parte, Kitty (1968) fue la primera animación de un personaje
+        realista.
+    </p>
+    <br>
+    <div>
+        <nav id="dos">
+            <a href="#"><img src="img/acgb.jpeg" alt="" width="90%"></a>
+            <a href="#"><img src="img/ky.jpeg" alt="" ></a>
+        </nav>
+    </div>
+    <br>
+    <p>
+        La primera pieza audiovisual 3D generada íntegramente con CGI fue A Computer Animated Hand (1972), un
+        cortometraje de Ed Catmull y Fred Parke en el que se podía ver una mano en movimiento procesada mediante
+        ordenador. El primero sería luego uno de los cofundadores de Pixar Animation Studios.
+    </p>
+    <br>
+    <img src="img/hand.jpeg" width="30%">
+    <br>
+    <p>
+        Almas de metal (1973) fue la primera película en utilizar CGI como tal para simular la forma de ver de un
+        androide. Apenas tres años más tarde, su secuela, Mundo Futuro (1976), también hizo historia al incluir la
+        imagen realista de un rostro humano 3D.
+
+        La primera entrega de La guerra de las galaxias (1977) innovó incorporando un modelado 3D con gráficos
+        vectoriales. Un efecto muy similar se vería dos años después en Alien: el octavo pasajero (1979).
+    </p>
+    <br>
+    <br>
+    <h3>Popularización de la CGI</h3>
+    <p>
+        En 1981, la película Looker fue la primera en incluir CGI de un cuerpo humano realista.
+
+        Tron (1982) fue el primer largometraje en incluir secuencias enteras generadas por ordenador, 15 minutos en
+        total, mientras que El secreto de la pirámide (1985) introdujo el primer personaje fotorrealista enteramente
+        generado por ordenador. Ese mismo año surgió la primera animación de metal líquido de la mano de Chuck Csuri y
+        Robert Cranston.
+
+        Más tarde, Catmull elaboró junto a John Lasseter la primera película de CGI nominada a un Óscar, el corto Luxo
+        Jr (1986). Más tardé creó Tin Toy (1988).
+
+        <div>
+            <nav id="dos">
+                <a href="#"><img src="img/lux.jpg" alt="" ></a>
+                <a href="#"><img src="img/tt.jpg" alt="" ></a>
+            </nav>
+        </div>
+        <br>
+        Otras películas que incorporaron CGI durante la década de los 80 fueron Star Trek IV. Misión: salvar la Tierra
+        (1986), Dentro del laberinto (1986), Willow (1988) o Abbys (1989).
+    </p>
+    <br>
+    <br>
+    <h3>Perfeccionamiento y cumbre de la animación CGI</h3>
+    <p>
+        Ya en 1990, Desafío Total también utilizó CGI en su escena final, y en 1991, Terminator 2: el juicio final se
+        sirvió de una combinación de efectos digitales para construir un personaje que aparecía a lo largo de toda la
+        cinta. No obstante, esta tecnología no terminó de asentarse hasta 1993 con Jurassic Park, filme en el que los
+        dinosaurios están creados con CGI.
+        <br>
+        Aunque no lo parezca, Forrest Gump (1994) también es una de las películas pioneras en utilizar CGI y, además, de
+        una forma novedosa: para retocar y perfeccionar detalles apenas visibles. Ejemplo de esto es la escena en que el
+        protagonista estrecha la mano de Kennedy (realizado mediante esta técnica) o el borrado de las piernas de uno de
+        los actores.
+        <br>
+        Por último, cabe destacar que Toy Story (1995) fue la primera película rodada íntegramente en CGI, lo que supuso
+        un antes y un después en la historia de la animación gracias al ahorro de tiempo y dinero que supuso. Por poner
+        un ejemplo, gracias al CGI los animadores 3D pueden crear esqueletos virtuales que presentan una serie de
+        movimientos clave determinados. Luego, el propio software se encarga de gestionar las transiciones entre ellos,
+        dotando de vida al personaje. En el proceso de animación tradicional cada pequeño movimiento suponía hacer un
+        dibujo nuevo.
+    </p>
+    <footer>
+        <div id="cuadro2">
+            <h3>Contactanos</h3>
+            <div class="azul">
+                <div><a href="#" class="socialButton twitter">twitter</a></div>
+                <div><a href="#" class="socialButton facebook">facebook</a></div>
+            </div>
+            <h3>Paleta de colores</h3>
+            <img src="img/Pal.png" width="50%">
+
+            <nav id="cuatro">
+                <img src="img/QR.png" width="15%">
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
